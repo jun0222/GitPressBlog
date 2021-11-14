@@ -1,3 +1,3 @@
 #!bin/bash
 touch posts/`date "+%Y-%m-%d-%H%M%S"`.md
-echo "---\nlayout: post\n---" > _posts/`date "+%Y-%m-%d"`-$1.md
+echo "---\ntitle: \ndate: `date "+%Y-%m-%d"`\nexcerpt: \n---" > posts/`date "+%Y-%m-%d-%H%M%S"`.md
