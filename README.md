@@ -1,11 +1,5 @@
-# Filenames：ContentTitle
-<details>
-  <summary>Click here</summary>
-  <ul>
-    <li>2021-11-14.md:早速GitPressやめた</li>
-    <li>2021-11-13.md:GitPressデビュー</li>
-  </ul>
-</details>
+# Posts
+[here](https://github.com/jun0222/blog/tree/main/posts)
 
 # Other outputs
 ## Qiita
