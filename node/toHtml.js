@@ -25,5 +25,8 @@ fs.readFile(filePath, { encoding: "utf8" }, (err, file) => {
         // オプションの値を使用する
         gfm: cliOptions.gfm,
     });
-    console.log(html);
+    fs.writeFile(html.split("\"")[1] + program.args[0].split("/")[1].replace(".md", "") + ".html", html, (err) =>{
+        if (err) throw err;
+        console.log("書き込みOK！");
+    })
 });
