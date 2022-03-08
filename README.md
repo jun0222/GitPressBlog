@@ -1,2 +1,2 @@
 # Posts
-[here](https://github.com/jun0222/blog/tree/main/posts)
+[here](https://jun0222.github.io/blog/)
