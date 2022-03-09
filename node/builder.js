@@ -1,6 +1,9 @@
-// これを実行するとファイル名逆順の配列が取れる
+// これを実行するとブログ記事がindex.mdに追記される
+// ビルド先のブログ記事をrmで削除するものと、これの実行をまとめたshellscriptを作る
+// 記事にタイムスタンプを入れたりとか工夫する
+// セットアップコマンドとか展開してQiitaかZennにあげよう。
 const fs = require('fs');
-const path = "./oldDocs/"
+const path = "./posts/"
 
 fs.readdir(path, (err, files) => {
   const filesR = files.reverse()
