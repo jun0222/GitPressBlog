@@ -9,7 +9,7 @@ fs.readdir(path, (err, files) => {
     for (let index = 0; index < filesR.length-1; index++) {
         const element = filesR[index];
         const file = fs.readFileSync(path+element, { encoding: "utf8" }, (err, file) => {});
-        fs.appendFileSync("./docs/index.md", file+"\n"+element.replace(".md","")+"\n"+"<hr>"+"\n", (err) =>{
+        fs.appendFileSync("./docs/index.md", file+"\n"+"\n"+"\n"+element.replace(".md","")+"\n"+"<hr>"+"\n", (err) =>{
             if (err) throw err;
             console.log("書き込みOK！");
         })
