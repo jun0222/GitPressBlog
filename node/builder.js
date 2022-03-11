@@ -14,7 +14,8 @@ fs.readdir(path, (err, files) => {
             console.log("書き込みOK！");
         })
     }
+    fs.appendFileSync("./docs/index.md", "<title>juns-blog</title>", (err) =>{
+        if (err) throw err;
+        console.log("書き込みOK！");
+    })
 });
-
-
-
