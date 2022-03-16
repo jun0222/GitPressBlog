@@ -2,6 +2,7 @@
 簡単にですが。  
 基本的にはMacのショートカットでタイムスタンプを入力してたのですが、  
 google documentとか高機能なツールだとできないとかあって、地味に不便だったので。
+[https://id-generator.juns-app.com/](https://id-generator.juns-app.com/)
 
 
 2022-03-15-004912
