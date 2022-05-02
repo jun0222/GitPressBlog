@@ -1,3 +1,12 @@
+# markdown all in oneが便利
+mdファイルにおいて、箇条書きに自動で対応できるなど。
+他にも多くの便利機能がありそう。
+
+[参考サイト](https://zenn.dev/ctrlkeykoyubi/articles/vscode-markdown-all-in-one)
+
+
+2022-05-03-035708
+<hr>
 # SOA再受験対策
 
 ## ラボ対策ハンズオン
