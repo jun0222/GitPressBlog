@@ -1,3 +1,13 @@
+# JavaScriptのimportで循環してundefined  
+  
+[ここ](https://tech.dely.jp/entry/ten_trivia_of_typescript_)とか、[ここ](https://qiita.com/taharah/items/ef69f2b722844cc249f6)に載ってるやつに遭遇した。
+結構あるあるらしいです。  
+コード再現してzennにあげようかと思ったのですが、  
+短時間で再現できず。もっと理解深まったらまたちょっと時間をとって挑戦したい。  
+
+
+2022-06-06-013950
+<hr>
 # SOA落ちた
 
 SOA受験しましたが、落ちました！  
