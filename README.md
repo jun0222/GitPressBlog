@@ -1,8 +1,10 @@
-# ブログURL
+# ブログ URL
+
 [here](https://jun0222.github.io/blog/)
 
 # コマンド
-## 記事のgit add ~ git push
+
+## 記事の git add ~ git push
 
 ```
 sh bin/autoPush.sh
@@ -17,5 +19,11 @@ sh bin/newPost.sh
 ## ブログファイルをビルド
 
 ```
-sh bin/build.sh 
+sh bin/build.sh
+```
+
+## ブログファイルをビルド&git push
+
+```
+. bin/buildAndPush.sh
 ```
