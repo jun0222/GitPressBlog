@@ -1,3 +1,13 @@
+# Javascript の includes
+
+こんな感じで sort をスッキリ書いたりもできるんですね。
+シンプルで便利そう。
+[https://qiita.com/khsk/items/bf92b29531fcab77bc2a](https://qiita.com/khsk/items/bf92b29531fcab77bc2a)
+
+
+
+2022-06-17-024436
+<hr>
 # VSCode ワークスペースをショートカットで切り替え
 
 これで option + tab で切り替え可能になった。  
