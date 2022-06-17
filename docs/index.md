@@ -1,3 +1,17 @@
+# dotfiles に興味出た
+
+自社サービスのあるスタートアップ楽しそうだよなあ〜  
+だなんて思いながら見つけたこちらのブログ、  
+dotfiles 育てるの楽しいよ！  
+という記事があったので興味出ました。  
+やってみたい。
+
+[https://pirosik.com/hobby-like-engineering-related-technologies/](https://pirosik.com/hobby-like-engineering-related-technologies/)
+
+
+
+2022-06-18-020339
+<hr>
 # Javascript の includes
 
 こんな感じで sort をスッキリ書いたりもできるんですね。
