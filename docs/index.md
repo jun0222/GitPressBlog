@@ -1,3 +1,19 @@
+# Jekyll のページネーション
+
+最初はいらないと思ってたけど、このブログにもページネーションが欲しい。  
+が、  
+`ページ分けは、HTML ファイルでのみ働きます`  
+らしいので、build 部分を修正する必要がある。
+
+fs でやるのがややこしかった思い出があるので、  
+pandas とか使うと良いのかな〜と。
+
+[http://jekyllrb-ja.github.io/docs/pagination/](http://jekyllrb-ja. github.io/docs/pagination/)
+
+
+
+2022-06-22-004200
+<hr>
 # zoom のテスト
 
 [https://zoom.us/test](https://zoom.us/test)
