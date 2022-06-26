@@ -1,7 +1,53 @@
+# 気軽に blog アウトプットできてきた
+
+今日もたくさん記事を書いたし、  
+数行程度で気軽にアウトプットできているので良い。  
+アウトプットがあれば振り返られる、  
+振り返りが長文だとしんどい。ということから、  
+今のように短文をどんどん書いている方がこの blog の目的を果たせている。
+
+
+
+2022-06-27-015818
+<hr>
+# 意味なかった改行のやつ
+
+[markdown で勝手に改行する](#markdown-で勝手に改行する) で改行する設定をしたと思ったが、  
+VSCode のプレビュー設定だった。  
+この blog で改行を反映するには、現状半角スペースが 2 つ必要。
+build スクリプトの修正が必要かもしれない。
+ページネーションもしたいし、どこかで修正したい。
+
+
+
+2022-06-27-015744
+<hr>
+# stripe で lookup_key の更新
+
+```ts
+const stripe = require("stripe")("sk_XXXXXXXXXXXXXXX");
+
+stripe.prices.update("price_XXXXXXXXXXXXXXX", {
+  lookup_key: "lookup_key_name",
+});
+```
+
+上記のように js スクリプトを書いて実行すると更新できた。  
+必要なライブラリ詳細などは理解しきれていないが、  
+そんなに複雑なエラーは出ないはず。
+
+## 参考記事
+
+[https://stripe.com/docs/api/prices/update#update_price-lookup_key](https://stripe.com/docs/api/prices/update#update_price-lookup_key)
+
+
+
+2022-06-27-015641
+<hr>
 # markdown で勝手に改行する
 
-command + ,を押して、
-`markdown.preview.breaks: true`
+command + ,を押して、  
+`markdown.preview.breaks: true`  
 に変更すると設定完了。
 
 ## 参考記事
@@ -14,8 +60,8 @@ command + ,を押して、
 <hr>
 # VSCode の更新は一瞬で終わる
 
-いつも結構忘れるのですが、
-VSCode の Ver 更新をしても特に面倒なことがなく、
+いつも結構忘れるのですが、  
+VSCode の Ver 更新をしても特に面倒なことがなく、  
 そのまま作業を継続できる。
 
 
