@@ -1,3 +1,31 @@
+# checkoutSession.customer で型 {実際の値} を型 {引数に指定の型} に割り当てることはできません。 型 'null' を型 'string' に割り当てることはできません。となる
+
+`型 'string | Customer | DeletedCustomer | null' を型 'string' に割り当てることはできません。 型 'null' を型 'string' に割り当てることはできません。`  
+がエラー内容。
+
+```ts
+const portalSession = await stripe.billingPortal.sessions.create({
+  customer: checkoutSession.customer,
+  return_url: returnUrl,
+});
+```
+
+という部分、  
+[https://www.memory-lovers.blog/entry/2021/06/09/110000](https://www.memory-lovers.blog/entry/2021/06/09/110000)を 参考に ↓ とするとエラーは無くなった。
+as するのってあんまり良いイメージないが、スコープ狭いので良いのかな？  
+union 型の扱いが慣れない、、
+
+```ts
+const portalSession = await stripe.billingPortal.sessions.create({
+  customer: checkoutSession.customer as string,
+  return_url: returnUrl,
+});
+```
+
+
+
+2022-06-29-024529
+<hr>
 # 設計は大まかな実装であり、経験無しに上手くならない
 
 設計について、大事だが掴みどころの無いものと思っていた。  
