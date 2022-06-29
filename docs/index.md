@@ -1,3 +1,37 @@
+# プリントデバッグにタイムスタンプを入れる
+
+こんな感じでタイムスタンプ出すと便利。  
+clipy とかに入れておくとさらに良いかも。  
+そのうち Zenn にも書く。
+
+```ruby
+Rails.logger.info(Time.now)
+Rails.logger.info(Time.now)
+Rails.logger.info(debug_val)
+Rails.logger.info(Time.now)
+Rails.logger.info(Time.now)
+```
+
+```ts
+console.log(
+  new Date().getHours().toString() + new Date().getMinutes().toString()
+);
+console.log(
+  new Date().getHours().toString() + new Date().getMinutes().toString()
+);
+console.log(debugVal);
+console.log(
+  new Date().getHours().toString() + new Date().getMinutes().toString()
+);
+console.log(
+  new Date().getHours().toString() + new Date().getMinutes().toString()
+);
+```
+
+
+
+2022-06-30-020505
+<hr>
 # 新規投稿ファイル作成を便利にした
 
 blog の新規記事を作るとき、  
