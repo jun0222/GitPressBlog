@@ -1,3 +1,30 @@
+# unknown が便利
+
+こうやって、型がわかりにくい場合調べられる。  
+適当に string とか入れていたが、こっちの方が良さそう。
+
+```ts
+// この中身がわかりにくい場合
+let invisibleValColor: unknown = "red";
+let invisibleValVoice: string = "bowwow";
+
+// 型定義
+type Dog = {
+  color: string;
+  voice: string;
+};
+
+// (property) color: string
+// 型 'unknown' を型 'string' に割り当てることはできません。ts(2322)
+// unknown.ts(7, 3): 予期された型は、型 'Dog' に対してここで宣言されたプロパティ 'color' から取得されています
+const shiba: Dog = { color: invisibleValColor, voice: invisibleValVoice };
+console.log(shiba);
+```
+
+
+
+2022-06-30-015959
+<hr>
 # checkoutSession.customer で型 {実際の値} を型 {引数に指定の型} に割り当てることはできません。 型 'null' を型 'string' に割り当てることはできません。となる
 
 `型 'string | Customer | DeletedCustomer | null' を型 'string' に割り当てることはできません。 型 'null' を型 'string' に割り当てることはできません。`  
