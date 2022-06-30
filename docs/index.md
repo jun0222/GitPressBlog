@@ -1,3 +1,17 @@
+# OSS 活動は意外と身近らしい
+
+good first issue とはじめてに良い issue をすでに用意してくれていたり、  
+翻訳プロジェクトで記念品が渡されたり、  
+issue を投げると、改善コードを返信してくれて、プルリク出してくださいと返答が来たという話もあるそう。  
+コミュニティは意外と真摯に取り組むのであれば、開けているのかもしれない。
+
+[https://qiita.com/ryo2132/items/0ea06e93ac26f2c83736](https://qiita.com/ryo2132/items/0ea06e93ac26f2c83736)  
+[https://tech.gunosy.io/entry/oss_first_contribution](https://tech.gunosy.io/entry/oss_first_contribution)
+
+
+
+2022-07-01-013638
+<hr>
 # プリントデバッグにタイムスタンプを入れる
 
 こんな感じでタイムスタンプ出すと便利。  
