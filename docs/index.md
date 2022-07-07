@@ -1,3 +1,22 @@
+# Rails の migration で生 SQL 実行
+
+```rb
+class MigrationFileName < ActiveRecord::Migration[7.0]
+    def up
+        execute('実行したい生SQL;')
+    end
+    def down
+        execute('実行したい生SQL;')
+    end
+end
+```
+
+みたいな感じで実行できる。
+
+
+
+2022-07-07-232017
+<hr>
 # 答えは無い、仮説しか無い
 
 調査系の作業をしているとき、  
