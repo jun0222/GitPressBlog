@@ -1,3 +1,12 @@
+# code helper
+
+mac の音がうるさい件、以下を参考に code helper に関する設定をするとマシになった。  
+[https://ottan.jp/posts/2019/03/vscode-cpu-hangup-slow-down/](https://ottan.jp/posts/2019/03/vscode-cpu-hangup-slow-down/)
+
+
+
+2022-07-10-045141
+<hr>
 # Mac のファンがうるさい
 
 冷却ファンが最近うるさい。  
