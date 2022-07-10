@@ -1,3 +1,14 @@
+# 分割は構造化(structuring)の反対
+
+分割代入について。
+[https://typescript-jp.gitbook.io/deep-dive/future-javascript/destructuring](https://typescript-jp.gitbook.io/deep-dive/future-javascript/destructuring)  
+分割は、構造化(structuring)の反対と考えてください。それが簡単な理解です  
+との事。すごく腑に落ちた。
+
+
+
+2022-07-11-021910
+<hr>
 # code helper
 
 mac の音がうるさい件、以下を参考に code helper に関する設定をするとマシになった。  
