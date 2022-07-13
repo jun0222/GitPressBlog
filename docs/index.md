@@ -1,3 +1,12 @@
+# factory_bot と rspec mock
+
+factory_bot を使うべき場所で、mock を使おうとしてちょっと時間を使ってしまった。  
+道具は正しい使い方を常に意識して使わないと。
+
+
+
+2022-07-14-022251
+<hr>
 # devise_token_auth の password reset で Routing Error Not Found
 
 password/edit で redirect_url を password/edit にしていたのが問題だった。
