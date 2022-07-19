@@ -1,3 +1,35 @@
+# stripe の subscription で型が取れない
+
+```ts
+intent.latest_invoice.payment_intent.client_secret;
+```
+
+のこと。
+
+```ts
+Stripe.Response<Stripe.Subscription>
+```
+
+という型があるが、
+`プロパティ 'payment_intent' は型 'string | Invoice' に存在しません。`
+になってしまう。しかし値は取れている。
+issue が上がっていて対応済みのようだが理解しきれていない。
+
+[https://github.com/dj-stripe/dj-stripe/issues/1062](https://github.com/dj-stripe/dj-stripe/issues/1062)
+
+
+
+2022-07-20-020942
+<hr>
+# stripe で参考になる qiita
+
+[hideokamoto](https://qiita.com/hideokamoto)さん。  
+stripe の方だそう。
+
+
+
+2022-07-20-020900
+<hr>
 # mac の音が静かになった
 
 扇風機をつける+ローカルのメモを vscode ではなく、  
