@@ -1,3 +1,15 @@
+# Rails で model 名と異なる table を使う
+
+```
+self.table_name = "table_names"
+```
+
+という感じ。このくらいのものも boiler-plate に入れようと思う。
+
+
+
+2022-07-21-095108
+<hr>
 # stripe の subscription で型が取れない
 
 ```ts
